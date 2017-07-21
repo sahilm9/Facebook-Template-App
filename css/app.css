@@ -1,0 +1,158 @@
+/* PLUGINS */
+/* BASE STYLES */
+h1 {
+  margin-top: 0; }
+
+/* LAYOUTS */
+header {
+  background-color: #2a5298;
+  padding-top: 20px;
+  min-height: 100px;
+  color: white; }
+
+header form {
+  float: right; }
+
+footer {
+  background-color: #2a5298;
+  color: #fff;
+  height: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0; }
+
+footer p {
+  margin-bottom: 0; }
+
+/* MODULES */
+.style-caption {
+  font-family: "Lemonada", cursive; }
+
+.panel-default {
+  border-color: #2a5298; }
+
+.panel .btn-default {
+  background-color: #2a5298;
+  color: #fff; }
+
+header .brand-caption {
+  width: 400px;
+  float: left; }
+
+.bubble {
+  position: relative;
+  width: 580px;
+  min-height: 65px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc; }
+
+.bubble:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #fff;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-top: -15px;
+  left: -15px;
+  top: 50%; }
+
+.bubble:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #ccc;
+  display: block;
+  width: 0;
+  z-index: 0;
+  margin-top: -15px;
+  left: -16px;
+  top: 50%; }
+
+.post-action {
+  margin: 5px; }
+
+.comment-form .form-group {
+  width: 90%; }
+
+.comment-form input[type='text'] {
+  width: 100%; }
+
+.comment {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px 0;
+  overflow: auto;
+  width: 100%; }
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #2a5298; }
+
+.btn-group {
+  float: right; }
+
+.comment-avatar img {
+  width: 40px;
+  margin-right: 5px; }
+
+.friends-list li {
+  list-style: none;
+  padding: 0 5px;
+  display: inline;
+  float: left; }
+
+.friends-list img {
+  width: 55px; }
+
+.groups img {
+  width: 80px;
+  float: left;
+  margin-right: 15px; }
+
+.group-item {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  overflow: auto; }
+
+.members .member-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+
+.members img {
+  margin-bottom: 5px; }
+
+.profile ul {
+  margin-top: 30px; }
+
+.profile li {
+  list-style: none;
+  line-height: 1.93em; }
+
+.photos {
+  margin: 0;
+  padding-top: 0; }
+
+.photos li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+  width: 23%; }
+
+.photos img {
+  width: 100% auto; }
+
+/* Additional styles */
+@media(min-width: 991px) {
+  .members p {
+    padding-top: 40px; } }
+
+/*# sourceMappingURL=app.css.map */
